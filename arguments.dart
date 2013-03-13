@@ -6,12 +6,12 @@ question_1() {
   var montant = 10000;   /* Entrer le montant à investir */
   var taux = 0.055;  /*Entrer le taux d'intérêt */
   var duree = 10;  /*Entrer la durée d'investissement */
-  print(capitalisation(montant, taux, duree));
+  capitalisation(montant, taux, duree);
 }
 
 question_2(){
   var y = 14;  /* Entrer la valeur de la table souhaitée */
-  print(cross(y));
+  cross(y);
 }
 
 question_3(){
@@ -42,17 +42,17 @@ question_7(){
 
 question_8(){
   var note = 75;   /* Entrer la note sur 100 */
-  print (notation(note));
+  notation(note);
 }
 
 question_9(){
   var liste = ['Jean-Michel', 'Marc', 'Vanessa', 'Anne', 'Maximilien', 'Alexandre-Benoît', 'Louise'];    /* Entrer la liste de mot à analyser */
-  print (lettrage(liste));
+  lettrage(liste);
 }
 
 question_10(){
   var ph = "On cherche à connaître le nombre de mots dans cette phrase.";   /* Entrer la phrase */
-  print (compteMots(ph));
+  compteMots(ph);
 }
 
 void main() {

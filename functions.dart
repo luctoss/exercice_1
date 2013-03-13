@@ -59,9 +59,9 @@ palindrome(var mot){
     inverse = '$inverse${mot[mot.length-n-1]}';
   }
   if (mot == inverse){
-    print ("A l'envers, le mot '${mot}' donne '${inverse}', donc c'est un palindrome.");
+    return "A l'envers, le mot '${mot}' donne '${inverse}', donc c'est un palindrome.";
   } else {
-    print ("A l'envers, le mot '${mot}' donne '${inverse}', donc ce n'est pas un palindrome.");
+    return "A l'envers, le mot '${mot}' donne '${inverse}', donc ce n'est pas un palindrome.";
   }
 }
 
